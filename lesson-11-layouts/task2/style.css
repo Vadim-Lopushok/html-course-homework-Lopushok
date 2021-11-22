@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  max-width: none;
+  width: 100%;
+  font-family: "M PLUS 2", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.product-reviews .g-communication {
+  display: inline-block;
+}
+
+.item-communication {
+  margin-left: -380px;
+}
+
+.product-reviews {
+  box-sizing: border-box;
+  margin: 0 auto;
+  min-width: 100%;
+  min-height: 315px;
+  background-color: black;
+}
+
+h1 {
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #317083;
+}
+
+span.title-word {
+  color: #ee8128;
+}
+
+.fa-icon > img {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  margin-left: 420px;
+}
+
+.p-communication {
+  position: relative;
+  padding: 30px;
+  margin-left: 550px;
+  width: 300px;
+  height: 35px;
+  background-color: #ffffff;
+}
+
+div.p-communication-author {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 13px;
+  font-style: italic;
+  color: #578bc7;
+}
+
+.floatword {
+  position: relative;
+  left: 150px;
+}
+
+.new {
+  margin-left: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px dotted black;
+}
+
+p {
+  font-size: 11px;
+}
+
+.p-communication::before {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  border-right: 20px solid white;
+  left: -30px;
+}
