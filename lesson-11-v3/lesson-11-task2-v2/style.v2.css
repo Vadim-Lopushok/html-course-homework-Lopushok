@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS 2", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.product-reviews {
+  width: 100%;
+  background-color: black;
+}
+
+.product-reviews::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.g-communication {
+  float: left;
+  padding: 15px;
+  width: 45%;
+}
+
+h1 {
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #317083;
+}
+
+span.title-word {
+  color: #ee8128;
+}
+
+.fa-icon > img {
+  width: 95px;
+  height: 95px;
+  float: left;
+}
+
+.p-communication {
+  position: relative;
+  padding: 5px 15px 3px 15px;
+  margin-left: 125px;
+  background: white;
+}
+
+.block-item {
+  border-bottom: 2px dotted #666;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #3270a6;
+}
+
+.description {
+  margin: 10px 0 15px;
+  font-size: 13px;
+  color: #917e91;
+}
+
+.client-tag {
+  float: right;
+}
+
+.p-communication::before {
+  content: "";
+  position: absolute;
+  border: 15px solid transparent;
+  border-right: 15px solid white;
+  top: 50%;
+  left: 0;
+  margin-top: -15px;
+  margin-left: -30px;
+}
+
+.p-communication-author::before {
+  content: "\002d";
+  margin-right: 3px;
+}
