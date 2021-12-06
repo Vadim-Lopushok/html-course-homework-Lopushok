@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task1</title>
+  </head>
+  <body>
+    <script>
+      var firstName = prompt("Ваше имя?");
+      var secondName = prompt("Ваша фамилия?");
+      var thirdName = prompt("Ваша отчество?");
+      var age = prompt("Ваш возраст?");
+      var optionMale = confirm("Ваш пол - мужской?");
+
+      var fullName = firstName + " " + secondName + " " + thirdName;
+      
+      var ageDays = age * 365;
+      var afterFiveYears = +age + 5;
+
+      var male = (optionMale == true) ? 'Вы мужского пола' : 'Вы женского пола';
+
+      var pension;
+
+      if (age < 60) {
+        pension = "И вы не на пенсии";
+      } else {
+        pension = "И вы на пенсии";
+      }
+
+      alert("Ваше ФИО: " + fullName + "\n" + "Ваш возраст в годах: " + age + "\n" + "Ваш возраст в днях: " + ageDays + "\n" + "Через пять лет вам будет: " + afterFiveYears + "\n" + male + "\n" + pension  );
+    </script>
+  </body>
+</html>
