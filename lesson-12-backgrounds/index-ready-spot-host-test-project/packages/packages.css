@@ -1,0 +1,71 @@
+body {
+  background: url("../images/plans-background.jpg") no-repeat;
+  background-size: cover;
+}
+
+.main-container::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.link-container {
+  width: 75%;
+  margin-top: 110px;
+  padding: 10px 30px 50px 30px;
+  background-color: rgb(178, 178, 176, 0.9);
+  border: 3px solid rgb(147, 114, 109, 0.9);
+  border-width: 3px 3px 3px 0;
+}
+
+.aside-item {
+  padding: 5px;
+  background-color: #d73f30;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.clear {
+  content: " ";
+  clear: both;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-content {
+  border: 2px solid rgb(155, 155, 153);
+  background-color: white;
+  color: #8c8c8c;
+  padding: 10px;
+  line-height: 1.5em;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.free {
+  border-width: 3px 0 3px 3px;
+  text-align: right;
+}
+
+.premium {
+  background-color: rgb(147, 114, 109, 0.9);
+  border: 3px solid #8e6b69;
+}
+
+.premium > h2 {
+  color: white;
+}
+
+.premium > h3 {
+  color: rgb(188, 175, 172);
+}
