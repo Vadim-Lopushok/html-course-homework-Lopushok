@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px #cccccc solid;
+}
+
+tr:nth-child(even) {
+  background-color: #ddebf8;
+}
+
+td:nth-child(2n + 3) {
+  background-color: rgb(242, 242, 221);
+}
