@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task2</title>
+  </head>
+  <body>
+    <script>
+      "use strict";
+
+      function pow(x, n) {
+        return x ** n;
+      }
+      let x = prompt("x?");
+      let n = prompt("n?");
+
+      if (n < 1) {
+        alert("Для n используйте натуральное число");
+      } else {
+        alert(pow(x, n));
+      }
+      // Второй вариант решения с обратными кавычками, в которые оборачиваем выражение n
+      function pow(x, n) {
+        return x ** n;
+      }
+      let x = prompt("x?");
+      let n = prompt("n?");
+
+      if (n < 1) {
+        alert(`Для степени ${n} введите натуральное число`);
+      } else {
+        alert(pow(x, n));
+      }
+    </script>
+  </body>
+</html>
