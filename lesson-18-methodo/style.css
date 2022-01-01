@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main-menu__list {
+  padding: 1em 0;
+  margin: 0 auto;
+  background-color: paleturquoise;
+  text-align: center;
+  font-size: 32px;
+}
+
+.main-menu__item {
+  display: inline;
+  margin: 0 15px;
+  padding: 1em;
+  border-right: 1px solid rgba(8, 117, 117, 0.2);
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.main-menu__link {
+  color: cadetblue;
+  text-decoration: none;
+  transition: 0.5s linear;
+}
+
+.main-menu__link:hover {
+  color: rgb(7, 43, 53);
+  text-decoration: overline;
+}
+
+.main-menu__link_active {
+  color: rgb(7, 43, 53);
+  text-decoration: overline;
+}
